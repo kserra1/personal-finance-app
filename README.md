@@ -23,3 +23,43 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+Install the frontend dependencies:
+bash
+Copy code
+cd frontend
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+Install the backend dependencies:
+bash
+Copy code
+cd backend
+pip install -r requirements.txt
+Set up the MongoDB database and configure your environment variables for the database connection and AWS deployment.
+
+Run the frontend development server:
+
+bash
+Copy code
+cd frontend
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+Run the backend development server:
+bash
+Copy code
+cd backend
+python manage.py runserver
+Open http://localhost:3000 with your browser to see the frontend, and http://localhost:8000 for the backend.
+Project Structure
+frontend/: Contains the React.js and Next.js code for the user interface.
+backend/: Contains the Django code for the backend services.
+config/: Contains configuration files for the project, including environment variables and AWS settings.
