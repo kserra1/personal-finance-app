@@ -1,5 +1,8 @@
 # Personal Finance App
 
+![Finance App Screenshot](./financeapp.png)
+
+
 This is a full-stack personal finance application built using React.js, Next.js, Django, MongoDB, and hosted on AWS. It provides users with a responsive interface to manage their finances securely.
 
 
