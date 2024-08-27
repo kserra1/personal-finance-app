@@ -1,6 +1,7 @@
 import pymongo 
+import os
 
-url = 'mongodb+srv://nanananakas:SEY7qW8WxIgZaOot@financecluster.j6oxm8k.mongodb.net/'
+url = os.environ.get('url')
 
 client = pymongo.MongoClient(url)
 
